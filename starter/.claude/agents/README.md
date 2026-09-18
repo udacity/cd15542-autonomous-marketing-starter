@@ -1,0 +1,1 @@
+This folder is where your two required subagents go: `message-generator.md` and `brand-auditor.md`. You'll create both yourself in Steps 3-4 of `PROJECT-INSTRUCTIONS.md`, which describes what each one needs to do. Nothing here is pre-built.

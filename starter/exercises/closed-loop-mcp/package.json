@@ -1,0 +1,13 @@
+{
+  "name": "closed-loop-mcp-mock-ad-platform",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Local mock ad platform MCP server for practicing the closed-loop optimization pattern (launch variants, pull performance, query memory, regenerate) without any external ad account.",
+  "main": "server.js",
+  "scripts": {
+    "dashboard": "node dashboard-server.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4"
+  }
+}

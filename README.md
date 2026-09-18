@@ -1,54 +1,36 @@
-# README Template
+# Build, Audit, and Validate a Brand-Safe Messaging System
 
-Below is a template provided for use when building your README file for students.
+Starter files for the capstone project in **Autonomous Marketing Systems & Agentic Orchestration** (cd15542).
 
-# Project Title
-
-Project description goes here.
+Hartsfield Business Bank is launching Momentum Business Suite into a competitive market, and every launch angle carries brand and regulatory risk. You will build a two-agent messaging system — a message-generation agent that drafts on-brand angles from source material, and an independent brand-auditor agent that gates every angle on voice, factual grounding, exact character counts, banned language, and review status — then run the generate/audit/revise loop, route approved copy for human review, and validate it against a simulated ad platform over MCP.
 
 ## Getting Started
 
-Instructions for how to get a copy of the project running on your local machine.
+Everything you need is in [`starter/`](starter/). Open that folder as your working directory in Claude Code and follow `PROJECT-INSTRUCTIONS.md` in the classroom.
 
-### Dependencies
+Read [`starter/README.md`](starter/README.md) first — it maps every provided file and marks what is core path versus optional.
 
-```
-Examples here
-```
+### What you build
 
-### Installation
+Two subagents, in `starter/.claude/agents/`:
 
-Step by step explanation of how to get a dev environment running.
+- `message-generator.md`
+- `brand-auditor.md`
 
-List out the steps
+The folder ships with a pointer note only. Building these two agents is the exercise, not a setup step.
 
-```
-Give an example here
-```
+### What is provided
 
-## Testing
+* **Source material** — `brand/brand-bible.md`, `intel/competitive-brief.md`, and six HBB reference PDFs in `references/`
+* **Working files** — `workspace/` templates for your angle log, staged approvals, and review record
+* **Practice ad platform** — `exercises/closed-loop-mcp/`, a pre-built MCP server and dashboard you connect to but never edit
+* **Optional** — `.claude/skills/hbb-trust-audit/`, a fuller compliance audit for after your own auditor works
 
-Explain the steps needed to run any automated tests
-
-### Break Down Tests
-
-Explain what each test does and why
-
-```
-Examples here
-```
+Core path is about 4-6 hours and requires no code writing.
 
 ## Project Instructions
 
-This section should contain all the student deliverables for this project.
-
-## Built With
-
-* [Item1](www.item1.com) - Description of item
-* [Item2](www.item2.com) - Description of item
-* [Item3](www.item3.com) - Description of item
-
-Include all items used to build project.
+Full instructions and the grading rubric are in the classroom.
 
 ## License
 
